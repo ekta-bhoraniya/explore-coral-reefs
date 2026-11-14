@@ -3,6 +3,7 @@ import { AnimatePresence, motion } from 'framer-motion';
 import { bus, useStore } from '../store';
 import { speciesById, credits } from '../data/content';
 import type { Species } from '../data/schema';
+import { asset } from '../asset';
 
 function lengthText(l: Species['lengthCm']) {
   const fmt = (cm: number) => (cm >= 100 ? `${(cm / 100).toFixed(cm % 100 ? 1 : 0)} m` : `${cm} cm`);
@@ -38,7 +39,7 @@ function Carousel({ sp }: { sp: Species }) {
         <AnimatePresence initial={false} mode="popLayout">
           <motion.img
             key={i}
-            src={`/photos/${sp.photos[i]}`}
+            src={asset(`photos/${sp.photos[i]}`)}
             alt={`${sp.commonName}, photo ${i + 1} of ${n}`}
             className="absolute inset-0 h-full w-full object-cover"
             draggable={false}

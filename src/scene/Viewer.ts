@@ -6,6 +6,7 @@ import { Hotspots, type Hotspot } from './Hotspots';
 import { Picking, sameTarget, setTargetHover, type Target } from './Picking';
 import { SwimTransition, angleDiff, ease } from './Transition';
 import { loadPanoTexture } from './loadTexture';
+import { asset } from '../asset';
 import { dirFromYawPitch } from './Fish';
 import { spotById, spotsFile, flags, type RuntimeSpot } from '../data/content';
 import { bus, store, reducedMotion, type Tier } from '../store';
@@ -146,7 +147,7 @@ export class Viewer {
     const p = (async () => {
       const have = this.cache.get(spot.file);
       if (have && LEVEL_RANK[have.level] >= LEVEL_RANK[level]) return;
-      const tex = await loadPanoTexture(`/panos/${level}/${spot.file}.webp`, track ? (v) => store.set({ loadProgress: v }) : undefined);
+      const tex = await loadPanoTexture(asset(`panos/${level}/${spot.file}.webp`), track ? (v) => store.set({ loadProgress: v }) : undefined);
       if (!tex) return;
       const cur = this.cache.get(spot.file);
       if (cur && LEVEL_RANK[cur.level] >= LEVEL_RANK[level]) { tex.dispose(); return; }

@@ -3,6 +3,7 @@ import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
 import { MeshoptDecoder } from 'three/examples/jsm/libs/meshopt_decoder.module.js';
 import * as SkeletonUtils from 'three/examples/jsm/utils/SkeletonUtils.js';
 import type { Species } from '../data/schema';
+import { asset } from '../asset';
 
 const loader = new GLTFLoader();
 loader.setMeshoptDecoder(MeshoptDecoder);
@@ -26,7 +27,7 @@ export function loadFishTemplate(sp: Species): Promise<FishTemplate | null> {
   const m = sp.model;
   if (!m) return Promise.resolve(null);
   if (!cache.has(sp.id)) {
-    cache.set(sp.id, loader.loadAsync(`/models/${m.file}`).then((gltf) => {
+    cache.set(sp.id, loader.loadAsync(asset(`models/${m.file}`)).then((gltf) => {
       const src = gltf.scene;
       src.rotation.set(...(m.rotation.map(THREE.MathUtils.degToRad) as [number, number, number]));
       src.updateMatrixWorld(true);

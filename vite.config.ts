@@ -19,6 +19,8 @@ function contentCheck(): Plugin {
 }
 
 export default defineConfig({
+  // GitHub Pages serves from /<repo>/; the deploy workflow sets BASE_PATH
+  base: process.env.BASE_PATH ?? '/',
   plugins: [react(), tailwindcss(), contentCheck()],
   build: { target: 'es2022', chunkSizeWarningLimit: 1200 },
 });

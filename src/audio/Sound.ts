@@ -1,7 +1,8 @@
 import { Howl, Howler } from 'howler';
 import { bus, store, writeBool } from '../store';
+import { asset } from '../asset';
 
-const src = (n: string) => [`/audio/${n}.ogg`, `/audio/${n}.mp3`];
+const src = (n: string) => [asset(`audio/${n}.ogg`), asset(`audio/${n}.mp3`)];
 
 /** All audio. Nothing plays until unlock() is called from a user gesture. */
 class SoundSystem {

@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { spotsFile } from '../data/content';
+import { asset } from '../asset';
 
 /** No WebGL 2, or a phone: a friendly still of the reef instead. */
 export function Unsupported({ reason }: { reason: 'webgl' | 'mobile' }) {
@@ -13,7 +14,7 @@ export function Unsupported({ reason }: { reason: 'webgl' | 'mobile' }) {
   };
   return (
     <main className="relative grid min-h-screen place-items-center overflow-hidden px-6 text-center">
-      <img src={`/panos/4k/${spotsFile.spots[0].file}.webp`} alt="" className="absolute inset-0 h-full w-full object-cover opacity-70" />
+      <img src={asset(`panos/4k/${spotsFile.spots[0].file}.webp`)} alt="" className="absolute inset-0 h-full w-full object-cover opacity-70" />
       <div className="glass relative max-w-md rounded-3xl p-8">
         <h1 className="font-display text-3xl font-semibold">Snorkel the Andaman Sea</h1>
         {reason === 'mobile' ? (
