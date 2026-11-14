@@ -1,0 +1,80 @@
+{
+  "start": "anemone-rock",
+  "spots": [
+    {
+      "id": "anemone-rock",
+      "title": "Anemone rock",
+      "file": "anemone-rock",
+      "initialYaw": 0,
+      "initialPitch": -18,
+      "links": [
+        { "to": "sand-channel", "yaw": 40, "pitch": -10 },
+        { "to": "reef-edge", "yaw": -120, "pitch": -8 }
+      ],
+      "water": { "tint": "#1b6f8f", "caustics": 0.6, "rays": 0.5, "particles": 0.5, "sunYaw": 30, "wobble": 0.002 },
+      "grade": { "exposure": 1.0, "saturation": 0.92, "tint": "#2a7f9e", "hazeColor": "#1d6a86" },
+      "swimmers": [
+        { "species": "emperor-angelfish", "count": 1, "path": "loop", "yaw": 60, "pitch": -12, "distance": 5, "radius": 2.0, "speed": 0.45 },
+        { "species": "ocellaris-clownfish", "count": 2, "path": "hover", "yaw": -18, "pitch": -26, "distance": 3, "radius": 0.5, "speed": 0.2 },
+        { "species": "green-sea-turtle", "count": 1, "path": "pass", "yaw": -35, "pitch": -4, "distance": 9, "radius": 7, "speed": 0.7 }
+      ],
+      "residents": [
+        { "species": "ocellaris-clownfish", "polygon": [[0.501, 0.6705], [0.525, 0.6705], [0.525, 0.6815], [0.501, 0.6815]] }
+      ]
+    },
+    {
+      "id": "sand-channel",
+      "title": "Sandy channel",
+      "file": "sand-channel",
+      "initialYaw": 40,
+      "initialPitch": -12,
+      "links": [
+        { "to": "anemone-rock", "yaw": -140, "pitch": -10 },
+        { "to": "staghorn-field", "yaw": 70, "pitch": -8 }
+      ],
+      "water": { "tint": "#1d7896", "caustics": 0.75, "rays": 0.6, "particles": 0.45, "sunYaw": 60, "wobble": 0.002 },
+      "grade": { "exposure": 1.02, "saturation": 0.9, "tint": "#2c86a4", "hazeColor": "#20708c" },
+      "swimmers": [
+        { "species": "emperor-angelfish", "count": 1, "path": "pass", "yaw": 20, "pitch": -8, "distance": 6, "radius": 5, "speed": 0.6 },
+        { "species": "green-sea-turtle", "count": 1, "path": "loop", "yaw": 100, "pitch": -6, "distance": 10, "radius": 3.5, "speed": 0.5 }
+      ],
+      "residents": []
+    },
+    {
+      "id": "reef-edge",
+      "title": "Reef edge",
+      "file": "reef-edge",
+      "initialYaw": -120,
+      "initialPitch": -10,
+      "links": [
+        { "to": "anemone-rock", "yaw": 60, "pitch": -10 },
+        { "to": "staghorn-field", "yaw": -40, "pitch": -8 }
+      ],
+      "water": { "tint": "#165f80", "caustics": 0.45, "rays": 0.7, "particles": 0.65, "sunYaw": -20, "wobble": 0.0025 },
+      "grade": { "exposure": 0.97, "saturation": 0.88, "tint": "#24708f", "hazeColor": "#185d7a" },
+      "swimmers": [
+        { "species": "green-sea-turtle", "count": 1, "path": "pass", "yaw": -150, "pitch": -5, "distance": 10, "radius": 8, "speed": 0.6 },
+        { "species": "emperor-angelfish", "count": 2, "path": "hover", "yaw": -100, "pitch": -15, "distance": 4.5, "radius": 0.8, "speed": 0.25 }
+      ],
+      "residents": []
+    },
+    {
+      "id": "staghorn-field",
+      "title": "Staghorn field",
+      "file": "staghorn-field",
+      "initialYaw": 0,
+      "initialPitch": -15,
+      "links": [
+        { "to": "sand-channel", "yaw": -110, "pitch": -8 },
+        { "to": "reef-edge", "yaw": 140, "pitch": -8 }
+      ],
+      "water": { "tint": "#1b6f8f", "caustics": 0.7, "rays": 0.45, "particles": 0.5, "sunYaw": 10, "wobble": 0.002 },
+      "grade": { "exposure": 1.0, "saturation": 0.95, "tint": "#2a7f9e", "hazeColor": "#1d6a86" },
+      "swimmers": [
+        { "species": "ocellaris-clownfish", "count": 3, "path": "loop", "yaw": 10, "pitch": -20, "distance": 3.5, "radius": 0.9, "speed": 0.35 },
+        { "species": "emperor-angelfish", "count": 1, "path": "loop", "yaw": -60, "pitch": -10, "distance": 6, "radius": 2.2, "speed": 0.5 }
+      ],
+      "residents": []
+    }
+  ]
+}

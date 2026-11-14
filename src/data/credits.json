@@ -1,0 +1,363 @@
+[
+  {
+    "group": "Panoramas",
+    "asset": "/panos/*/anemone-rock.webp",
+    "title": "Anemone rock (procedural placeholder)",
+    "author": "Reef Snorkel project",
+    "source": "scripts/make-dev-pano.py",
+    "licence": "CC0 1.0",
+    "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "modified": "Generated in-house; to be replaced by Cinevva Skybox panoramas"
+  },
+  {
+    "group": "Panoramas",
+    "asset": "/panos/*/sand-channel.webp",
+    "title": "Sandy channel (procedural placeholder)",
+    "author": "Reef Snorkel project",
+    "source": "scripts/make-dev-pano.py",
+    "licence": "CC0 1.0",
+    "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "modified": "Generated in-house; to be replaced by Cinevva Skybox panoramas"
+  },
+  {
+    "group": "Panoramas",
+    "asset": "/panos/*/reef-edge.webp",
+    "title": "Reef edge (procedural placeholder)",
+    "author": "Reef Snorkel project",
+    "source": "scripts/make-dev-pano.py",
+    "licence": "CC0 1.0",
+    "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "modified": "Generated in-house; to be replaced by Cinevva Skybox panoramas"
+  },
+  {
+    "group": "Panoramas",
+    "asset": "/panos/*/staghorn-field.webp",
+    "title": "Staghorn field (procedural placeholder)",
+    "author": "Reef Snorkel project",
+    "source": "scripts/make-dev-pano.py",
+    "licence": "CC0 1.0",
+    "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "modified": "Generated in-house; to be replaced by Cinevva Skybox panoramas"
+  },
+  {
+    "group": "3D models",
+    "asset": "/models/clownfish.glb",
+    "title": "ClownFish",
+    "author": "Microsoft Remix 3D, via Ethereal Engine open asset kit",
+    "source": "https://github.com/ir-engine/ir-engine-assets-basic/blob/HEAD/assets/ocean/ClownFish.glb",
+    "licence": "CC0 1.0 (as stated by curator; confirm before launch)",
+    "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "modified": "Converted to metal-rough PBR, simplified, meshopt + WebP compressed"
+  },
+  {
+    "group": "3D models",
+    "asset": "/models/angelfish.glb",
+    "title": "AngelFish3",
+    "author": "Microsoft Remix 3D, via Ethereal Engine open asset kit",
+    "source": "https://github.com/ir-engine/ir-engine-assets-basic/blob/HEAD/assets/ocean/AngelFish3.glb",
+    "licence": "CC0 1.0 (as stated by curator; confirm before launch)",
+    "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "modified": "Converted to metal-rough PBR, simplified, meshopt + WebP compressed"
+  },
+  {
+    "group": "3D models",
+    "asset": "/models/sea-turtle.glb",
+    "title": "SeaTurtle",
+    "author": "Microsoft Remix 3D, via Ethereal Engine open asset kit",
+    "source": "https://github.com/ir-engine/ir-engine-assets-basic/blob/HEAD/assets/low_poly/SeaTurtle.glb",
+    "licence": "CC0 1.0 (as stated by curator; confirm before launch)",
+    "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "modified": "Converted to metal-rough PBR, simplified, meshopt + WebP compressed"
+  },
+  {
+    "group": "3D models",
+    "asset": "/models/napoleon-wrasse.glb",
+    "title": "NapoleonWrassefish",
+    "author": "Microsoft Remix 3D, via Ethereal Engine open asset kit",
+    "source": "https://github.com/ir-engine/ir-engine-assets-basic/blob/HEAD/assets/ocean/NapoleonWrassefish.glb",
+    "licence": "CC0 1.0 (as stated by curator; confirm before launch)",
+    "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "modified": "Converted to metal-rough PBR, simplified, meshopt + WebP compressed"
+  },
+  {
+    "group": "3D models",
+    "asset": "/models/tuskfish.glb",
+    "title": "Orangedottedtuskfish",
+    "author": "Microsoft Remix 3D, via Ethereal Engine open asset kit",
+    "source": "https://github.com/ir-engine/ir-engine-assets-basic/blob/HEAD/assets/ocean/Orangedottedtuskfish.glb",
+    "licence": "CC0 1.0 (as stated by curator; confirm before launch)",
+    "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "modified": "Converted to metal-rough PBR, simplified, meshopt + WebP compressed"
+  },
+  {
+    "group": "3D models",
+    "asset": "/models/octopus.glb",
+    "title": "Octopus",
+    "author": "Microsoft Remix 3D, via Ethereal Engine open asset kit",
+    "source": "https://github.com/ir-engine/ir-engine-assets-basic/blob/HEAD/assets/ocean/Octopus.glb",
+    "licence": "CC0 1.0 (as stated by curator; confirm before launch)",
+    "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "modified": "Converted to metal-rough PBR, simplified, meshopt + WebP compressed"
+  },
+  {
+    "group": "3D models",
+    "asset": "/models/whitetip-shark.glb",
+    "title": "white-tip-shark",
+    "author": "Microsoft Remix 3D, via Ethereal Engine open asset kit",
+    "source": "https://github.com/ir-engine/ir-engine-assets-basic/blob/HEAD/assets/ocean/white-tip-shark.glb",
+    "licence": "CC0 1.0 (as stated by curator; confirm before launch)",
+    "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "modified": "Converted to metal-rough PBR, simplified, meshopt + WebP compressed"
+  },
+  {
+    "group": "Photos",
+    "asset": "/photos/ocellaris-clownfish-*.webp",
+    "title": "Ocellaris clownfish (placeholder images)",
+    "author": "Reef Snorkel project",
+    "source": "scripts/make-photo-placeholders.py",
+    "licence": "CC0 1.0",
+    "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "modified": "Placeholder until licensed CC0 / CC BY photos are added"
+  },
+  {
+    "group": "Photos",
+    "asset": "/photos/emperor-angelfish-*.webp",
+    "title": "Emperor angelfish (placeholder images)",
+    "author": "Reef Snorkel project",
+    "source": "scripts/make-photo-placeholders.py",
+    "licence": "CC0 1.0",
+    "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "modified": "Placeholder until licensed CC0 / CC BY photos are added"
+  },
+  {
+    "group": "Photos",
+    "asset": "/photos/green-sea-turtle-*.webp",
+    "title": "Green sea turtle (placeholder images)",
+    "author": "Reef Snorkel project",
+    "source": "scripts/make-photo-placeholders.py",
+    "licence": "CC0 1.0",
+    "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "modified": "Placeholder until licensed CC0 / CC BY photos are added"
+  },
+  {
+    "group": "Photos",
+    "asset": "/photos/napoleon-wrasse-*.webp",
+    "title": "Napoleon wrasse (placeholder images)",
+    "author": "Reef Snorkel project",
+    "source": "scripts/make-photo-placeholders.py",
+    "licence": "CC0 1.0",
+    "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "modified": "Placeholder until licensed CC0 / CC BY photos are added"
+  },
+  {
+    "group": "Photos",
+    "asset": "/photos/whitetip-reef-shark-*.webp",
+    "title": "Whitetip reef shark (placeholder images)",
+    "author": "Reef Snorkel project",
+    "source": "scripts/make-photo-placeholders.py",
+    "licence": "CC0 1.0",
+    "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "modified": "Placeholder until licensed CC0 / CC BY photos are added"
+  },
+  {
+    "group": "Photos",
+    "asset": "/photos/day-octopus-*.webp",
+    "title": "Day octopus (placeholder images)",
+    "author": "Reef Snorkel project",
+    "source": "scripts/make-photo-placeholders.py",
+    "licence": "CC0 1.0",
+    "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "modified": "Placeholder until licensed CC0 / CC BY photos are added"
+  },
+  {
+    "group": "Photos",
+    "asset": "/photos/orange-dotted-tuskfish-*.webp",
+    "title": "Orange-dotted tuskfish (placeholder images)",
+    "author": "Reef Snorkel project",
+    "source": "scripts/make-photo-placeholders.py",
+    "licence": "CC0 1.0",
+    "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "modified": "Placeholder until licensed CC0 / CC BY photos are added"
+  },
+  {
+    "group": "Photos",
+    "asset": "/photos/powder-blue-tang-*.webp",
+    "title": "Powder blue tang (placeholder images)",
+    "author": "Reef Snorkel project",
+    "source": "scripts/make-photo-placeholders.py",
+    "licence": "CC0 1.0",
+    "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "modified": "Placeholder until licensed CC0 / CC BY photos are added"
+  },
+  {
+    "group": "Fish facts",
+    "asset": "facts:fishbase",
+    "title": "FishBase",
+    "author": "Froese, R. and D. Pauly (eds.), FishBase",
+    "source": "https://www.fishbase.se",
+    "licence": "CC BY-NC 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-nc/3.0/",
+    "modified": "Facts summarised; draft until verified"
+  },
+  {
+    "group": "Fish facts",
+    "asset": "facts:sealifebase",
+    "title": "SeaLifeBase",
+    "author": "Palomares, M.L.D. and D. Pauly (eds.), SeaLifeBase",
+    "source": "https://www.sealifebase.se",
+    "licence": "CC BY-NC 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-nc/3.0/",
+    "modified": "Facts summarised; draft until verified"
+  },
+  {
+    "group": "Sound",
+    "asset": "/audio/ambience.*",
+    "title": "Underwater ambience loop (synthesised placeholder)",
+    "author": "Reef Snorkel project",
+    "source": "scripts/make-audio.py",
+    "licence": "CC0 1.0",
+    "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "modified": "Synthesised and low-passed in-house"
+  },
+  {
+    "group": "Sound",
+    "asset": "/audio/breathing.*",
+    "title": "Snorkel breathing loop (synthesised placeholder)",
+    "author": "Reef Snorkel project",
+    "source": "scripts/make-audio.py",
+    "licence": "CC0 1.0",
+    "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "modified": "Synthesised and low-passed in-house"
+  },
+  {
+    "group": "Sound",
+    "asset": "/audio/bubbles-*.*",
+    "title": "Bubble one-shots (synthesised placeholder)",
+    "author": "Reef Snorkel project",
+    "source": "scripts/make-audio.py",
+    "licence": "CC0 1.0",
+    "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "modified": "Synthesised and low-passed in-house"
+  },
+  {
+    "group": "Sound",
+    "asset": "/audio/fin-kick.*",
+    "title": "Fin kick (synthesised placeholder)",
+    "author": "Reef Snorkel project",
+    "source": "scripts/make-audio.py",
+    "licence": "CC0 1.0",
+    "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "modified": "Synthesised and low-passed in-house"
+  },
+  {
+    "group": "Sound",
+    "asset": "/audio/splash.*",
+    "title": "Surface splash (synthesised placeholder)",
+    "author": "Reef Snorkel project",
+    "source": "scripts/make-audio.py",
+    "licence": "CC0 1.0",
+    "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "modified": "Synthesised and low-passed in-house"
+  },
+  {
+    "group": "Sound",
+    "asset": "/audio/tick.*",
+    "title": "UI tick (synthesised placeholder)",
+    "author": "Reef Snorkel project",
+    "source": "scripts/make-audio.py",
+    "licence": "CC0 1.0",
+    "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "modified": "Synthesised and low-passed in-house"
+  },
+  {
+    "group": "Sound",
+    "asset": "/audio/chime.*",
+    "title": "Card chime (synthesised placeholder)",
+    "author": "Reef Snorkel project",
+    "source": "scripts/make-audio.py",
+    "licence": "CC0 1.0",
+    "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "modified": "Synthesised and low-passed in-house"
+  },
+  {
+    "group": "Code libraries",
+    "asset": "lib:three.js",
+    "title": "three.js",
+    "author": "three.js",
+    "source": "https://threejs.org",
+    "licence": "MIT",
+    "licenceUrl": "https://threejs.org"
+  },
+  {
+    "group": "Code libraries",
+    "asset": "lib:React",
+    "title": "React",
+    "author": "React",
+    "source": "https://react.dev",
+    "licence": "MIT",
+    "licenceUrl": "https://react.dev"
+  },
+  {
+    "group": "Code libraries",
+    "asset": "lib:GSAP + ScrollTrigger",
+    "title": "GSAP + ScrollTrigger",
+    "author": "GSAP + ScrollTrigger",
+    "source": "https://gsap.com",
+    "licence": "GSAP Standard License",
+    "licenceUrl": "https://gsap.com"
+  },
+  {
+    "group": "Code libraries",
+    "asset": "lib:Framer Motion",
+    "title": "Framer Motion",
+    "author": "Framer Motion",
+    "source": "https://motion.dev",
+    "licence": "MIT",
+    "licenceUrl": "https://motion.dev"
+  },
+  {
+    "group": "Code libraries",
+    "asset": "lib:Tailwind CSS",
+    "title": "Tailwind CSS",
+    "author": "Tailwind CSS",
+    "source": "https://tailwindcss.com",
+    "licence": "MIT",
+    "licenceUrl": "https://tailwindcss.com"
+  },
+  {
+    "group": "Code libraries",
+    "asset": "lib:Howler.js",
+    "title": "Howler.js",
+    "author": "Howler.js",
+    "source": "https://howlerjs.com",
+    "licence": "MIT",
+    "licenceUrl": "https://howlerjs.com"
+  },
+  {
+    "group": "Code libraries",
+    "asset": "lib:Zod",
+    "title": "Zod",
+    "author": "Zod",
+    "source": "https://zod.dev",
+    "licence": "MIT",
+    "licenceUrl": "https://zod.dev"
+  },
+  {
+    "group": "Code libraries",
+    "asset": "lib:Fraunces (font)",
+    "title": "Fraunces (font)",
+    "author": "Fraunces (font)",
+    "source": "https://fonts.google.com/specimen/Fraunces",
+    "licence": "SIL OFL 1.1",
+    "licenceUrl": "https://fonts.google.com/specimen/Fraunces"
+  },
+  {
+    "group": "Code libraries",
+    "asset": "lib:Inter (font)",
+    "title": "Inter (font)",
+    "author": "Inter (font)",
+    "source": "https://rsms.me/inter/",
+    "licence": "SIL OFL 1.1",
+    "licenceUrl": "https://rsms.me/inter/"
+  }
+]

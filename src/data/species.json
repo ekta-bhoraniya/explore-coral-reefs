@@ -1,0 +1,287 @@
+[
+  {
+    "id": "ocellaris-clownfish",
+    "commonName": "Ocellaris clownfish",
+    "scientificName": "Amphiprion ocellaris",
+    "description": "A small orange fish with three white bands that lives among the stinging tentacles of a sea anemone. A coat of mucus keeps it from being stung, and in return it chases away fish that would nibble its host.",
+    "lengthCm": {
+      "typical": 8,
+      "max": 11
+    },
+    "depthM": {
+      "min": 1,
+      "max": 15
+    },
+    "hidesIn": "Lives among the tentacles of host sea anemones, rarely more than a metre or two away.",
+    "photos": [
+      "ocellaris-clownfish-1.webp",
+      "ocellaris-clownfish-2.webp",
+      "ocellaris-clownfish-3.webp"
+    ],
+    "model": {
+      "file": "clownfish.glb",
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "displayLength": 0.18,
+      "wiggle": {
+        "amp": 0.06,
+        "freq": 7
+      }
+    },
+    "sources": [
+      "https://www.fishbase.se/summary/Amphiprion-ocellaris.html"
+    ],
+    "factStatus": "draft"
+  },
+  {
+    "id": "emperor-angelfish",
+    "commonName": "Emperor angelfish",
+    "scientificName": "Pomacanthus imperator",
+    "description": "Adults are striped in yellow and blue with a dark mask across the eyes. Young ones look completely different: dark blue with white rings, so for years they were thought to be another species.",
+    "lengthCm": {
+      "typical": 30,
+      "max": 40
+    },
+    "depthM": {
+      "min": 1,
+      "max": 100
+    },
+    "hidesIn": "Ledges, caves and overhangs in areas of rich coral growth.",
+    "photos": [
+      "emperor-angelfish-1.webp",
+      "emperor-angelfish-2.webp",
+      "emperor-angelfish-3.webp"
+    ],
+    "model": {
+      "file": "angelfish.glb",
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "displayLength": 0.45,
+      "wiggle": {
+        "amp": 0.05,
+        "freq": 5
+      }
+    },
+    "sources": [
+      "https://www.fishbase.se/summary/Pomacanthus-imperator.html"
+    ],
+    "factStatus": "draft"
+  },
+  {
+    "id": "green-sea-turtle",
+    "commonName": "Green sea turtle",
+    "scientificName": "Chelonia mydas",
+    "description": "Named for the green colour of its fat, not its shell. Adults graze on seagrass and algae, and can rest underwater for hours without coming up to breathe.",
+    "lengthCm": {
+      "typical": 100,
+      "max": 150
+    },
+    "weight": "usually 70 to 190 kg",
+    "depthM": {
+      "min": 0,
+      "max": 40
+    },
+    "hidesIn": "Rests under ledges and in reef crevices; feeds on nearby seagrass beds.",
+    "photos": [
+      "green-sea-turtle-1.webp",
+      "green-sea-turtle-2.webp",
+      "green-sea-turtle-3.webp"
+    ],
+    "model": {
+      "file": "sea-turtle.glb",
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "displayLength": 1.1,
+      "wiggle": {
+        "amp": 0,
+        "freq": 0
+      },
+      "motion": "roll"
+    },
+    "sources": [
+      "https://www.sealifebase.se/summary/Chelonia-mydas.html"
+    ],
+    "factStatus": "draft"
+  },
+  {
+    "id": "napoleon-wrasse",
+    "commonName": "Napoleon wrasse",
+    "scientificName": "Cheilinus undulatus",
+    "description": "One of the largest fish on the reef, with a bump on its forehead that grows with age. It is one of the few animals that eats crown-of-thorns starfish, which helps protect coral.",
+    "lengthCm": {
+      "typical": 100,
+      "max": 229
+    },
+    "weight": "up to 191 kg",
+    "depthM": {
+      "min": 1,
+      "max": 100
+    },
+    "hidesIn": "Swims along steep reef slopes by day; sleeps in caves and under ledges at night.",
+    "photos": [
+      "napoleon-wrasse-1.webp",
+      "napoleon-wrasse-2.webp",
+      "napoleon-wrasse-3.webp"
+    ],
+    "model": {
+      "file": "napoleon-wrasse.glb",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "displayLength": 1.4,
+      "wiggle": {
+        "amp": 0.03,
+        "freq": 3
+      }
+    },
+    "sources": [
+      "https://www.fishbase.se/summary/Cheilinus-undulatus.html"
+    ],
+    "factStatus": "draft"
+  },
+  {
+    "id": "whitetip-reef-shark",
+    "commonName": "Whitetip reef shark",
+    "scientificName": "Triaenodon obesus",
+    "description": "A slim, calm shark with bright white tips on its fins. Unlike many sharks it can lie still on the bottom, so it spends the day resting in caves and hunts at night.",
+    "lengthCm": {
+      "typical": 160,
+      "max": 213
+    },
+    "weight": "up to about 18 kg",
+    "depthM": {
+      "min": 1,
+      "max": 330
+    },
+    "hidesIn": "Rests in caves, under ledges or on sand channels during the day.",
+    "photos": [
+      "whitetip-reef-shark-1.webp",
+      "whitetip-reef-shark-2.webp",
+      "whitetip-reef-shark-3.webp"
+    ],
+    "model": {
+      "file": "whitetip-shark.glb",
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "displayLength": 1.6,
+      "wiggle": {
+        "amp": 0.04,
+        "freq": 2.5
+      }
+    },
+    "sources": [
+      "https://www.fishbase.se/summary/Triaenodon-obesus.html"
+    ],
+    "factStatus": "draft"
+  },
+  {
+    "id": "day-octopus",
+    "commonName": "Day octopus",
+    "scientificName": "Octopus cyanea",
+    "description": "Unlike most octopuses it hunts by day, changing colour and skin texture in a moment to match the reef. It keeps a den in the rock and piles shells from its meals outside the door.",
+    "lengthCm": {
+      "max": 80
+    },
+    "weight": "up to about 6 kg",
+    "depthM": {
+      "min": 0,
+      "max": 50
+    },
+    "hidesIn": "A den in a crack or hole in the reef, often marked by a pile of empty shells.",
+    "photos": [
+      "day-octopus-1.webp",
+      "day-octopus-2.webp",
+      "day-octopus-3.webp"
+    ],
+    "model": {
+      "file": "octopus.glb",
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "displayLength": 0.6,
+      "wiggle": {
+        "amp": 0,
+        "freq": 0
+      }
+    },
+    "sources": [
+      "https://www.sealifebase.se/summary/Octopus-cyanea.html"
+    ],
+    "factStatus": "draft"
+  },
+  {
+    "id": "orange-dotted-tuskfish",
+    "commonName": "Orange-dotted tuskfish",
+    "scientificName": "Choerodon anchorago",
+    "description": "A wrasse with blue-green tusk-like teeth that it uses to crack open shells. It flips over rubble on sandy patches to find crabs, snails and clams.",
+    "lengthCm": {
+      "max": 38
+    },
+    "depthM": {
+      "min": 1,
+      "max": 25
+    },
+    "hidesIn": "Sandy and rubble areas near seagrass and coral, close to the bottom.",
+    "photos": [
+      "orange-dotted-tuskfish-1.webp",
+      "orange-dotted-tuskfish-2.webp",
+      "orange-dotted-tuskfish-3.webp"
+    ],
+    "model": {
+      "file": "tuskfish.glb",
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "displayLength": 0.38,
+      "wiggle": {
+        "amp": 0.05,
+        "freq": 5
+      }
+    },
+    "sources": [
+      "https://www.fishbase.se/summary/Choerodon-anchorago.html"
+    ],
+    "factStatus": "draft"
+  },
+  {
+    "id": "powder-blue-tang",
+    "commonName": "Powder blue tang",
+    "scientificName": "Acanthurus leucosternon",
+    "description": "Bright blue with a black face and a yellow back fin. Near its tail it carries a sharp, scalpel-like spine, which gives surgeonfish their name.",
+    "lengthCm": {
+      "max": 54
+    },
+    "depthM": {
+      "min": 0,
+      "max": 25
+    },
+    "hidesIn": "Shallow reef flats and upper slopes, often grazing algae in groups.",
+    "photos": [
+      "powder-blue-tang-1.webp",
+      "powder-blue-tang-2.webp",
+      "powder-blue-tang-3.webp"
+    ],
+    "sources": [
+      "https://www.fishbase.se/summary/Acanthurus-leucosternon.html"
+    ],
+    "factStatus": "draft"
+  }
+]

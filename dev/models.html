@@ -1,0 +1,27 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Model check</title>
+<style>body{margin:0;background:#123;color:#fff;font:13px sans-serif}#g{display:grid;grid-template-columns:repeat(4,1fr)}canvas{width:100%;display:block}div.c{position:relative}span{position:absolute;left:8px;top:6px}</style></head>
+<body><div id="g"></div>
+<script type="module">
+// Dev tool: renders each species after normalisation. Red arrow = +X (head should point here), viewed from the side (+Z).
+import * as THREE from 'three';
+import species from '/src/data/species.json';
+import { loadFishTemplate, cloneTemplate } from '/src/scene/fishModels.ts';
+import { SpeciesSchema } from '/src/data/schema.ts';
+const g = document.getElementById('g');
+for (const raw of species) {
+  const sp = SpeciesSchema.parse(raw);
+  if (!sp.model) continue;
+  const t = await loadFishTemplate(sp);
+  const r = new THREE.WebGLRenderer({ antialias: true }); r.setSize(320, 240); r.outputColorSpace = THREE.SRGBColorSpace;
+  const s = new THREE.Scene(); s.background = new THREE.Color(0x1d6a86);
+  s.add(new THREE.HemisphereLight(0xffffff, 0x335566, 2.5));
+  const cam = new THREE.PerspectiveCamera(35, 4 / 3, 0.01, 100); cam.position.set(0.25, 0.35, 2.0); cam.lookAt(0, 0, 0);
+  s.add(cloneTemplate(t));
+  s.add(new THREE.ArrowHelper(new THREE.Vector3(1, 0, 0), new THREE.Vector3(0, -0.35, 0), 0.6, 0xff3355));
+  r.render(s, cam);
+  const d = document.createElement('div'); d.className = 'c'; d.appendChild(r.domElement);
+  const l = document.createElement('span'); l.textContent = `${sp.id} rot=${sp.model.rotation}`; d.appendChild(l); g.appendChild(d);
+}
+document.body.dataset.done = '1';
+</script></body></html>

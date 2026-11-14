@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Fraunces", Georgia, serif;
+  --font-sans: "Inter", system-ui, sans-serif;
+  --color-deep: #0b3f63;
+  --color-sea: #1d7aa0;
+  --color-foam: #bff6ff;
+  --color-coral: #f08a3c;
+}
+
+:root {
+  color-scheme: dark;
+  --glass-bg: rgba(8, 40, 56, 0.55);
+  --glass-border: rgba(255, 255, 255, 0.15);
+}
+
+html, body, #root { margin: 0; min-height: 100%; background: #062234; color: #fff; font-family: var(--font-sans); }
+body { -webkit-font-smoothing: antialiased; }
+body.locked { overflow: hidden; height: 100%; }
+
+.glass {
+  background: var(--glass-bg);
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  border: 1px solid var(--glass-border);
+}
+
+.scene-root { position: fixed; inset: 0; z-index: 0; }
+.scene-canvas { display: block; width: 100%; height: 100%; touch-action: none; cursor: grab; }
+.scene-root.inactive { pointer-events: none; }
+
+/* real buttons over fish + hotspots (keyboard / screen reader access) */
+.a11y-layer { position: absolute; inset: 0; pointer-events: none; overflow: hidden; }
+.a11y-target {
+  position: absolute; left: -22px; top: -22px; width: 44px; height: 44px; border-radius: 999px;
+  background: transparent; border: 0; padding: 0; pointer-events: none; opacity: 0;
+}
+.a11y-target:focus-visible { opacity: 1; outline: 2px solid var(--color-foam); outline-offset: 4px; box-shadow: 0 0 24px rgba(191, 246, 255, 0.6); }
+
+.hotspot-label {
+  position: absolute; left: 0; top: 0; pointer-events: none; white-space: nowrap;
+  translate: -50% 0; padding: 6px 12px; border-radius: 999px; font-size: 13px;
+  background: var(--glass-bg); border: 1px solid var(--glass-border); backdrop-filter: blur(12px);
+  opacity: 0; transition: opacity 0.2s;
+}
+.hotspot-label.on { opacity: 1; }
+
+.scene-toast {
+  position: absolute; left: 50%; bottom: 96px; translate: -50% 0; padding: 10px 16px; border-radius: 14px;
+  background: var(--glass-bg); border: 1px solid var(--glass-border); backdrop-filter: blur(16px);
+  font-size: 14px; transition: opacity 0.5s; z-index: 20;
+}
+.scene-toast.out { opacity: 0; }
+
+.author-panel {
+  position: absolute; right: 16px; top: 72px; width: 300px; z-index: 40; padding: 14px; border-radius: 14px;
+  background: rgba(0, 0, 0, 0.7); font: 12px/1.4 ui-monospace, monospace;
+}
+.author-panel pre { white-space: pre-wrap; word-break: break-all; max-height: 160px; overflow: auto; }
+.author-panel button { background: #fff; color: #000; border-radius: 6px; padding: 2px 8px; }
+
+.focus-ring:focus-visible { outline: 2px solid var(--color-foam); outline-offset: 3px; }
+
+@keyframes bob { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(8px); } }
+.bob { animation: bob 2.2s ease-in-out infinite; }
+@media (prefers-reduced-motion: reduce) { .bob { animation: none; } }
